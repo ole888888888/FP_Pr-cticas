@@ -19,10 +19,10 @@ int main(){
     esequilatero =  (a==b && a==c && b==c);
 
     if(formatriangulo){
-        cout << "Esos tres lados forman triángulo";
-        
+        cout << "Esos tres lados forman triángulo" << endl;
+
         if(esequilatero){
-        cout << "Es un triángulo equilátero";
+        cout << "Es un triángulo equilátero" << endl;
         }
     }
     else{
