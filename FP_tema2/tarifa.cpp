@@ -15,7 +15,7 @@ int main(){
    bool corto = dist <= 300.0;
 
    if(corto){
-    trf = trf_base;
+      trf = trf_base;
    }
 
    else{
